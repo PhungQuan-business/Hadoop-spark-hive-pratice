@@ -30,7 +30,7 @@ mkdir -p jupyter/notebook/flight-data
 
 # Download file directly into that directory
 curl -L -o jupyter/notebook/flight-data/airline-delay-analysis.zip \
-  https://www.kaggle.com/api/v1/datasets/download/sherrytp/airline-delay-analysis
+  https://www.kaggle.com/api/v1/datasets/download/normalusage/airline-delay-analysis
 
 # Unzip it
 unzip jupyter/notebook/flight-data/airline-delay-analysis.zip \
